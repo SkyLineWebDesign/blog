@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwald Ray's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images1/Sx.png">
+</head>
+<body>
+    <div id="popup">
+        <div id="popup-content">
+            <span id="close-btn">&times;</span>
+            <p>This is an example website made by <a href= "https://skylinewebdesign.github.io/skylinewebdesign/index.html" target="_blank"><img class="lgo" src ="images1/Sx.png" width = "20px"></a><a class="🌃" href="https://skylinewebdesign.github.io/skylinewebdesign/index.html" target="_blank">skyline web design</a>.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <aside class="navbar">
+            <div class="profile">
+                <h2>Edwald Ray</h2>
+                <p>Traveler | Photographer</p>
+                <div>
+                    <a href="https://x.com/" target="_blank"><img class="twooter" src="images1/xlogo.png" width="100px"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="ingram" src="images1/instagram.png" width="100px"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="face" src="images1/facebook.png" width="100px"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img class="youtube" src="images1/youtube.png" width="100px"></a>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <article class="blog-post">
+                <div class="post-image">
+                    <a href="post1.html"><img src="images1/hawaii1.jpg" alt="Aerial view of the Na Pali Coast" class="imgs"></a>
+                </div>
+                <div class="post-text">
+                    <h2><a href="post1.html">The Magic of Hawaii: Exploring the Islands</a></h2>
+                    <p>Hawaii, the land of aloha, is a place where nature's beauty is at its most magnificent...</p>
+                </div>
+            </article>            
+
+            <article class="blog-post">
+                <div class="post-image">
+                    <a href="post2.html"><img class="imgs" src="images1/hawaii2.jpg" alt="Sunset on a tropical beach" /></a>
+                </div>
+                <div class="post-text">
+                    <h2><a href="post2.html">Top 5 Must-Visit Beaches in Hawaii</a></h2>
+                    <p>Explore the top beaches in Hawaii, each offering unique experiences from surfing to serene sunsets...</p>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">
+                    <a href="post3.html"><img class="imgs" src="images1/hawaii3.jpg" alt="Steep hiking trail on Koko Head" /></a>
+                </div>
+                <div class="post-text">
+                    <h2><a href="post3.html">Hiking Adventures: Discovering Hawaii's Hidden Gems</a></h2>
+                    <p>For the adventurous at heart, Hawaii offers some of the most breathtaking hiking trails...</p>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">
+                    <a href="post4.html"><img class="imgs" src="images1/hawaii4.jpg" alt="Lava lake at Hawaii Volcanoes National Park" /></a>
+                </div>
+                <div class="post-text">
+                    <h2><a href="post4.html">The Volcanic Wonders of the Big Island</a></h2>
+                    <p>The Big Island is home to active volcanoes that shape the landscape and create stunning natural wonders...</p>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">
+                    <a href="post5.html"><img src="images1/hawaii5.jpg" class="imgs" alt="Ancient Hawaiian cultural site" /></a>
+                </div>
+                <div class="post-text">
+                    <h2><a href="post5.html">A Journey Through Hawaii's Cultural Sites</a></h2>
+                    <p>Discover the rich cultural heritage of Hawaii by visiting its historic sites and museums...</p>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">
+                    <a href="post6.html"><img class="imgs" src="images1/hawaii6.jpg" alt="Green sea turtle swimming underwater" /></a>
+                </div>
+                <div class="post-text">
+                    <h2><a href="post6.html">Exploring Hawaii's Marine Life</a></h2>
+                    <p>Dive into the crystal-clear waters of Hawaii to explore its vibrant marine life, from colorful reefs to majestic sea turtles...</p>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Skyline Web Design</p>
+    </footer>
+
+    <script>
+        document.getElementById('close-btn').onclick = function() {
+            document.getElementById('popup').style.display = 'none';
+        };
+
+        window.onload = function() {
+            document.getElementById('popup').style.display = 'block';
+        };
+    </script>
+</body>
+</html>
